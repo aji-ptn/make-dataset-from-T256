@@ -15,3 +15,5 @@ replace all with this file
 change file for line number 502 into you directory and make file name "pose.txt" for save pose of images.
 
 for more installation coming soon
+
+# MOIL LAB Ming Chi University

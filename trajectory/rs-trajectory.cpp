@@ -1,7 +1,8 @@
 // Referred : IntelRealSense https://github.com/IntelRealSense/librealsense/blob/master/examples/trajectory/rs-trajectory.cpp || https://github.com/IntelRealSense/librealsense/blob/master/examples/save-to-disk/rs-save-to-disk.cpp
 
-// Modified by: Raghav&Shivani
-// Email: baldwashivani@gmail.com
+// Modified first by: Raghav&Shivani
+// Modified second by : Aji pamungkas & Haryanto
+// Email: ajipamungkastrinurcahyo@gmail.com
 // Here code will open camera shows movement of camera via trajectory and print "matrix.txt" file in folder (need to make empyty matrix.txt file). Ultimately code give pose file and image sequence for Odometry.
 
 #include <librealsense2/rs.hpp>

@@ -169,11 +169,13 @@ git clone https://github.com/aji-ptn/make-dataset-from-T256.git
 
 - Extract and replace file in trajectory 
 
-![image-20210425022535673](/home/aji/.config/Typora/typora-user-images/image-20210425022535673.png)
+![image](https://user-images.githubusercontent.com/58238736/115969789-66d42a00-a571-11eb-80b8-3dda61c67b1b.png)
+
 
 - Open ``rs-trajectory.cpp`` and change ``line 502`` directory and make file ``pose.txt`` to save pose estimation of camera position. 
 
-![image-20210425022703980](/home/aji/.config/Typora/typora-user-images/image-20210425022703980.png)
+![image](https://user-images.githubusercontent.com/58238736/115969816-88cdac80-a571-11eb-93a1-a5299fbf8f26.png)
+
 
 ### 6. **M**ake folder build 
 
@@ -196,8 +198,14 @@ cmake ../ -DBUILD_EXAMPLES=true -DCMAKE_BUILD_TYPE=Release
 ```python
 sudo make uninstall && make clean && make –j$(nproc) && sudo make install
 ```
+- Use make -j$(nproc) for parallel compilation, where it stands for the number of CPU
+cores available:
 
-![image-20210425022948910](/home/aji/.config/Typora/typora-user-images/image-20210425022948910.png)
+```python
+nproc
+```
+
+![image](https://user-images.githubusercontent.com/58238736/115969844-aef34c80-a571-11eb-9d2c-0383718f2bfe.png)
 
 ### 9. Run 
 
@@ -216,15 +224,18 @@ sudo make uninstall && make clean && make –j$(nproc) && sudo make install
 rs-trajectory
 ```
 
-![image-20210425023304068](/home/aji/.config/Typora/typora-user-images/image-20210425023304068.png)
+[image](https://user-images.githubusercontent.com/58238736/115970029-84ee5a00-a572-11eb-97d1-88df8f472495.png)
+
 
 - Result for sequence
 
-![image-20210425023341513](/home/aji/.config/Typora/typora-user-images/image-20210425023341513.png)
+![image](https://user-images.githubusercontent.com/58238736/115970021-7a33c500-a572-11eb-9c72-56cbcb5cb32f.png)
+
 
 - Result for pose
 
-![image-20210425023332431](/home/aji/.config/Typora/typora-user-images/image-20210425023332431.png)
+![image](https://user-images.githubusercontent.com/58238736/115970031-8e77c200-a572-11eb-91cd-ed5f69e4347f.png)
+
 
 
 

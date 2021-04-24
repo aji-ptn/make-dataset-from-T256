@@ -226,7 +226,7 @@ nproc
 rs-trajectory
 ```
 
-[image](https://user-images.githubusercontent.com/58238736/115970029-84ee5a00-a572-11eb-97d1-88df8f472495.png)
+![image](https://user-images.githubusercontent.com/58238736/115970029-84ee5a00-a572-11eb-97d1-88df8f472495.png)
 
 
 - Result for sequence

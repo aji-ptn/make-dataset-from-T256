@@ -1,3 +1,5 @@
+# Go This Repository https://github.com/aji-ptn/make-dataset-from-T256
+
 ## Realsense T256 Tracking camera
 
 The Intel® RealSense™ Tracking Camera T265 includes two greyscale cameras with fish-eye lens, an IMU, and an Intel® Movidius™ Myriad™ 2 VPU. All of the V‑SLAM algorithms run directly on the VPU, allowing for very low latency and extremely efficient power consumption (1.5W).
